@@ -1,0 +1,102 @@
+/* Estilos para os squares */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 20px;
+  }
+  
+  .square {
+    background-color: #e9ecef;
+    border: 2px solid #343a40;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .inner-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    column-gap: 50px;
+    width: 60%;
+    height: 100%;
+  }
+  
+  .inner-square {
+    background-color: #f8f9fa;
+    border: 1px solid #343a40;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Ajustes para header e footer */
+  header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  
+  footer {
+    position: sticky;
+    bottom: 0;
+    z-index: 1000;
+  }
+  
+  main {
+    margin-right: 20px; /* Adiciona margem à direita do main */
+  }
+  
+  /* Estilos para os botões da sidebar */
+  .sidebar .nav-link {
+    color: #fff;
+    border: 1px solid #343a40;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .sidebar .nav-link:hover {
+    background-color: #495057;
+    border-color: #495057;
+  }
+  
+  /* Estilos para a sidebar direita */
+  .sidebar-right {
+    background-color: #343a40;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  /* Estilos específicos para a página aventura */
+  .grid-container-aventura {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 20px;
+  }
+  
+  .square-aventura {
+    background-color: #e9ecef;
+    border: 2px solid #343a40;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px; /* Aumenta a altura específica para a página aventura */
+  }
